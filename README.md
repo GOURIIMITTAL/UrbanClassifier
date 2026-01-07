@@ -1,4 +1,4 @@
-# 🔊 Urban Sound Classification using Deep Learning
+#  Urban Sound Classification using Deep Learning
 
 This project implements an end-to-end Machine Learning pipeline to classify environmental sounds into 10 distinct categories using the **UrbanSound8K** dataset. By transforming raw audio into frequency-domain features (MFCCs), a Dense Artificial Neural Network (ANN) was trained to identify patterns across thousands of urban sound clips.
 
@@ -9,7 +9,7 @@ The **UrbanSound8K** dataset contains 8,732 labeled sound excerpts (≤ 4s) of u
 
 * **Air Conditioner**, **Car Horn**, **Children Playing**, **Dog Bark**, **Drilling**, **Engine Idling**, **Gun Shot**, **Jackhammer**, **Siren**, and **Street Music**.
 
-🔗 [Dataset Link (Kaggle)](https://www.kaggle.com/datasets/chrisfilo/urbansound8k)
+ [Dataset Link (Kaggle)](https://www.kaggle.com/datasets/chrisfilo/urbansound8k)
 
 ---
 
@@ -42,6 +42,6 @@ The project uses a Sequential **Artificial Neural Network (ANN)** designed to ha
 
 ---
 
-## 📈 Performance
+##  Performance
 * **Validation Accuracy:** `92.22%`
 * **Optimization:** Utilized **Early Stopping** to monitor validation loss and prevent overtraining.
